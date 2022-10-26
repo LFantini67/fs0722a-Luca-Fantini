@@ -1,0 +1,75 @@
+#logo {
+    text-align: center;
+}
+
+#orangeline { 
+    color: orange;
+    background-color: orange;
+    border: 0;
+    height: 1px;
+}
+
+#high {
+    text-align: center;
+    color: blue;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    background-color:rosybrown;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#focaccia {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sallyvegas {
+    text-align: center;
+    color: grey;
+}
+
+#featured {
+    margin-left: 16cm;
+    color: red;
+}
+
+#link {
+    margin-left: 16cm;
+}
+
+#ing {
+    margin-left: 15cm;
+}
+
+#greenline { 
+    color: green;
+    background-color: green;
+    border: 0;
+    height: 1px;
+}
+
+#ingredient {
+    margin-left: 15cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#met {
+    margin-left: 15cm;
+}
+
+ol {
+    margin-left: 15cm;
+}
+
+#mtfd {
+    margin-left: 16cm;
+}
+
+#readmore {
+    margin-left: 15cm;
+}
+
