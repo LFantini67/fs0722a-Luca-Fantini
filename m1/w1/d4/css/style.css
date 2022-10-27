@@ -1,0 +1,20 @@
+body {
+    background-image: url(../FE-S1-L4-Esercizio/assets/img/sfondo.png);
+}
+
+#testa {
+    text-align: center;
+    background-color: blue;
+}
+
+#corpo {
+    background-color: white;
+}
+
+h2 {
+    text-shadow: 1rem;
+}
+
+#thead {
+    background-color: blue;
+}
