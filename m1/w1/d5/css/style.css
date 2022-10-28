@@ -1,0 +1,49 @@
+/* Your styles here */
+
+.quadrato{
+    width: 640px;
+}
+
+
+#logo img{
+    max-width: 100%;
+}
+
+
+#logo{
+    background-color: black;
+    text-align: center;
+}
+
+#bg1{
+    width: 400px;
+    border: 1px solid #000;
+    height: 500;
+}
+
+#testa{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#imgnote{
+    text-align: center;
+}
+
+#macpro{
+    text-align: center;
+}
+
+#red{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#contattaci{
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+}
