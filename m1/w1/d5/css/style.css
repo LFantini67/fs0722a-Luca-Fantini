@@ -1,7 +1,30 @@
 /* Your styles here */
 
+body {
+    color: #393d41;
+    font-family: 'Open-sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65px;
+}
+
+h1, h2{
+    color: #25a2c3;
+    line-height: 1.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#prosso{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .quadrato{
     width: 640px;
+}
+
+.quadrato1{
+    width: 640px;
+    height: 500px;
 }
 
 
@@ -37,9 +60,13 @@
 }
 
 #red{
-    background-color: red;
+    background-color: #e22d0e;
     color: white;
     text-align: center;
+}
+
+#i{
+    color: #c8e7f0;
 }
 
 #contattaci{
