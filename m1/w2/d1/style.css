@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+
+.box {
+    height: 450px;
+    width: 450px;
+    background-color: rgb(151, 151, 151);
+    margin: auto;
+    padding-top: 45px;
+}
+
+.box1 {
+    padding: 20px;
+    border: solid 5px black;
+    height: 350px;
+    width: 350px;
+    background-color: rgb(151, 151, 151);
+    margin: auto;
+}
+
+p {
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px solid black;
+    background: chocolate;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 20px 20px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 13%;
+    margin-top: 42%;
+}
