@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <h1>Calcolatrice</h1>
+
+    <div class="box">
+        <div class="calcolatrice">
+        <input type="text" id="display" readonly>
+      </div>
+    <div class="calcolatrice">
+        <div data-simbolo="c" onclick="resettaValore(this)"><p class="grafica">c</p></div>
+        <div data-simbolo="%" onclick="Percentuale(this)"><p class="grafica">%</p></div>  
+        <div data-simbolo="&#8730" onclick="radiceQuadrata(this)"><p class="grafica">&#8730</p></div>  
+        <div data-simbolo="/" onclick="aggiungiCifra(this)"><p class="grafica2">&#247</p></div>   
+    </div>
+    <div class="calcolatrice">
+        <div data-simbolo="7" onclick="aggiungiCifra(this)"><p class="grafica1">7</p></div> 
+        <div data-simbolo="8" onclick="aggiungiCifra(this)"><p class="grafica1">8</p></div>  
+        <div data-simbolo="9" onclick="aggiungiCifra(this)"><p class="grafica1">9</p></div>  
+        <div data-simbolo="*" onclick="aggiungiCifra(this)"><p class="grafica2">x</p></div>   
+    </div>
+    <div class="calcolatrice">
+        <div data-simbolo="4" onclick="aggiungiCifra(this)"><p class="grafica1">4</p></div> 
+        <div data-simbolo="5" onclick="aggiungiCifra(this)"><p class="grafica1">5</p></div>  
+        <div data-simbolo="6" onclick="aggiungiCifra(this)"><p class="grafica1">6</p></div>  
+        <div data-simbolo="-" onclick="aggiungiCifra(this)"><p class="grafica2">-</p></div>   
+    </div>
+    <div class="calcolatrice">
+        <div data-simbolo="1" onclick="aggiungiCifra(this)"><p class="grafica1">1</p></div> 
+        <div data-simbolo="2" onclick="aggiungiCifra(this)"><p class="grafica1">2</p></div>  
+        <div data-simbolo="3" onclick="aggiungiCifra(this)"><p class="grafica1">3</p></div>  
+        <div data-simbolo="+" onclick="aggiungiCifra(this)"><p class="grafica2">+</p></div>   
+    </div>
+    <div class="calcolatrice">
+        <div data-simbolo="0" onclick="aggiungiCifra(this)"><p class="grafica0">0</p></div> 
+        <div data-simbolo="." onclick="aggiungiCifra(this)"><p class="grafica1">.</p></div>  
+        <div onclick="tot()"><p class="grafica2">=</p></div>   
+    </div>
+    <hr>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

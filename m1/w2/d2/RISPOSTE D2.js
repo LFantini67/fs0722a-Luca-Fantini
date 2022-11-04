@@ -46,7 +46,7 @@ RISPOSTA ESERCIZIO 5
  */
 
 var name = 'Luca'; {
-const x = 'Fantini';
+const name = 'Fantini';
 }
 console.log(name);
 
