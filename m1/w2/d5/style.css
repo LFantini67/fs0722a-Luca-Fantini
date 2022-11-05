@@ -1,7 +1,11 @@
-h1 {text-align: center;
+/* titolo della pagina che ho lasciato nascosto */
+
+h1 {text-align: center;                    
     font-family: 'Roboto', sans-serif;
     display: none;
 }
+
+/* con p ho settato il distanziamento tra i tasti */
 
 p {
     margin-block-start: 1em;
@@ -9,14 +13,18 @@ p {
     margin-inline-start: 13px;
 }
 
+/* ho usato l'hr per ricreare il segmento per il trascinamento su iphone */
+
 hr {
     color: white;
     background-color: white;
     border-radius: 5px;
     height: 5px;
     width: 100px;
-    margin-top: 13%;
+    margin-top: 15%;
 }
+
+/* con la classe box ho regolato la dimensione e la forma della calcolatrice */
 
 .box {
     height: 640px;
@@ -27,16 +35,20 @@ hr {
     border-radius: 40px 40px;
 }
 
+/* il display è dove verranno visualizzati i pulsanti premuti */
+
 #display {
     height: 80px;
-    margin: 110px 0px 8px 0px;
+    margin: 110px 0px 8px 24px;
     font-size: 4rem;
-    width: 80%;
+    width: 72%;
     text-align: end;
     color: white;
     background-color: black;
     border: 0px;
 }
+
+/* qui ho settato l'allineamento dei tasti sulla calcolatrice */
 
 .calcolatrice{
     text-align: center;
@@ -44,6 +56,8 @@ hr {
     margin-left: 10%;
     margin-bottom: -12%;;
 }
+
+/* con le classi grafica sono andato a creare la grafica dei pulsanti */
 
 .grafica {
     font-family: 'Roboto', sans-serif;
@@ -97,6 +111,18 @@ hr {
     text-align: start;
 }
 
+/* con l'hover ho creato l'effetto di schiarimento al passaggio del cursore sul tasto */
 
+.grafica0:hover, .grafica1:hover {
+    background:rgb(90, 90, 90);
+}
+
+.grafica:hover {
+    background-color: rgb(205, 205, 205)
+}
+
+.grafica2:hover {
+    background-color: rgb(255, 190, 40);
+}
 
 
