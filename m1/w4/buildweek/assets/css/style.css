@@ -10,3 +10,16 @@ body {
     margin-left: 30px;
 }
 
+.logo {
+text-align: center;
+}
+   
+.stella{
+        /* to black /
+        */filter: invert(1);
+        /*or to blue */
+        filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+      }
+
+   
+
