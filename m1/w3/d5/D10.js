@@ -93,14 +93,25 @@ splitMe("I,love,coding");
 */
 
 const deleteOne = function (stringa, boolean) {
-  
+  if (boolean) {
+    console.log(stringa.slice(1, stringa.length));
+  }
+  else {
+    console.log(stringa.slice(0, -1));
+  }
 }
+deleteOne('Luca Fantini', false)
 
 /* ESERCIZIO 5
   Crea una funzione chiamata "onlyLetters" che riceve una stringa come parametro e la ritorna eliminando tutte le cifre numeriche.
 
   Es.: onlyLetters("I have 4 dogs") => ritorna "I have dogs"
 */
+
+const onlyLetters = function(stringa) {
+  console.log(stringa.replace(/[0-9]?/g, ""));
+}
+onlyLetters("I have 4 dogs");
 
 /* ESERCIZIO 6
   Crea una funzione chiamata "isThisAnEmail" che riceve una stringa come parametro e ritorna true se la stringa è un valido indirizzo email.
@@ -109,6 +120,12 @@ const deleteOne = function (stringa, boolean) {
 /* ESERCIZIO 7
   Scrivi una funzione chiamata "whatDayIsIt" che ritorna il giorno della settimana corrente.
 */
+const whatDayIsIt = function() {
+  let today = new Date();
+  console.log(today);
+  console.log(today.getDay());
+};
+whatDayIsIt();
 
 /* ESERCIZIO 8
   Scrivi una funzione chiamata "rollTheDices" che riceve un numero come parametro.
@@ -158,6 +175,17 @@ console.log(howManyDays(data))
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 */
+
+let oggi = new Date();
+const isTodayMyBirthday = function(dataOggi) {
+  let myBirthday = new Date("11/11/2022");
+  if (myBirthday == dataOggi) 
+  console.log("E' il mio compleanno");
+  else {
+    console.log("Non è il mio compleanno");
+  }
+};
+isTodayMyBirthday(oggi);
 
 // Arrays & Oggetti
 
@@ -315,21 +343,48 @@ console.log(newWestMovie())
   Scrivi una funzione chiamata countMovies che ritorna il numero di film contenuti nell'array "movies" fornito.
 */
 
+function countMovies(array) {
+  return array.length
+}
+
 /* ESERCIZIO 14
   Scrivi una funzione chiamata "onlyTheYears" che crea un array con solamente gli anni di uscita dei film contenuti nell'array "movies" fornito.
 */
+
+const onlyTheYears = function(array) {
+  let arrayYears = []
+  array.forEah(ele => {
+    arrayYears.push(ele.Year)
+  })
+return arrayYears
+}
 
 /* ESERCIZIO 15
   Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito.
 */
 
+const onlyInLastMillennium = function(arr) {
+  console.log(arr.filter((ele) => ele.Year < 2000))
+}
+onlyInLastMillennium(movies);
+
 /* ESERCIZIO 16
   Scrivi una funzione chiamata "sumAllTheYears" che ritorna la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array "movies" fornito.
 */
 
+const sumAllTheYears = function(arr) {
+  let sum = arr.reduce((acc, ele) => (acc += Number(ele.Year)), 0)
+  console.log(sum);
+};
+
 /* ESERCIZIO 17
   Scrivi una funzione chiamata "searchByTitle" che riceve una stringa come parametro e ritorna i film nell'array "movies" fornito che la contengono nel titolo.
 */
+
+const searchByTitle = function(stringa) {
+  console.log(movies.find((ele) => ele.Title.toLowerCase().includes(str.toLowerCase())))
+}
+searchByTitle("The Avengers");
 
 /* ESERCIZIO 18
   Scrivi una funzione chiamata "searchAndDivide" che riceve una stringa come parametro e ritorna un oggetto contenente due array: "match" e "unmatch".
