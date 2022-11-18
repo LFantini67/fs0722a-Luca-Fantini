@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Build-Week</title>
+    <title>Epicode- I tuoi Risultati</title>
     <meta name="keywords" content="corso, epicode, test">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,33 +17,51 @@
 <body>
 
     <header class="header">
-        <img src="assets/img/epicode_logo.png" alt="Logo Epicode">
+        <img src="assets/img/epicode_logo.png" alt="Logo Epicode" id="logo-epicode">
     </header>
 
-    <main>
+    <main id="main-result">
         <div id="div-titolo-result">
-        <h1 id="titolo-result"><span class="bold-span">Results</span></h1>
-        <p>The summary of your answers:</p>
+            <h1 id="titolo-result"><span class="bold-span">Risultato</span></h1>
+            <h2 id="sommario">Il riepilogo delle tue risposte:</h2>
         </div>
-        <div id="div-corretto">
-            <h2 class="titoletto-percentuale">Correct</h2>
-            <p> /6 questions</p>
+        <div id="contenitore">
+            <div id="div-corretto">
+                <h2 class="titoletto-percentuale">Corrette</h2>
+                <p class="bold-span" id="percentualeG">0%</p>
+                <p id="p-risposte-corrette"></p>
+            </div>
+            <div id="contenitore-cerchio">
+                <div id="cerchio-sbagliate">
+                    <div id="cerchio-giuste">
+                        <div id="before-no">
+                            <div id="testo-div">
+                                <div id="div-congratulazioni">
+                                    <p class="bold-span" id="congratulazioni"></p>
+                                    <p class="bold-span" id="esame-passato"></p>
+                                    <p id="send-email"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="div-errato">
+                <h2 class="titoletto-percentuale">Errate</h2>
+                <p class="bold-span" id="percentualeS">0%</p>
+                <p id="p-risposte-sbagliate"></p>
+            </div>
         </div>
-        <div id="div-congratulazioni">
-           <p id="congratulazioni"></p>
-           <p id="esame-passato"></p>
-           <p id="send-email">We'll send you the certificate in few minutes. Check your email (including promotions / spam folder)</p> 
-        </div>
-        <div id="div-errato">
-            <h2 class="titoletto-percentuale">Wrong</h2>
-            <p> /6 questions</p>
-        </div>
-    <footer id="footer-result">
-        <button id ="bottone-result" class="bottone-generico">RATE US</button>
-    </footer>
-    
 
     </main>
+
+    <footer id="footer-result">
+        <button id="bottone-result">VALUTACI</button>
+    </footer>
+
+    <script src="assets/javascript/result.js"></script>
+
 
     <body>
 
