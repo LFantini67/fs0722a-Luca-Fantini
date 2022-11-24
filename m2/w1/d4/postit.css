@@ -1,0 +1,127 @@
+#flex-container {
+    display: flex;
+    width: 1536px;
+    height: 624px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background: #666
+  }
+
+#flex-container .white{
+    background-image: linear-gradient(#fefecd, #bdbda5);
+    width: 320px;
+    height: 172px;
+    margin: 35px 30px;
+    line-height: 50px;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 70px;
+    box-shadow: 5px 5px 10px;
+    position: relative;
+  }
+  
+#flex-container .green{
+    background-image: linear-gradient(#ccfece, #9eb5a1);
+    width: 320px;
+    height: 172px;
+    margin: 35px 30px;
+    line-height: 50px;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 70px;
+    box-shadow: 5px 5px 10px;
+    position: relative;
+  }
+  
+#flex-container .blu{
+    background-image: linear-gradient(#cbcbfb, #8b8c9a);
+    width: 320px;
+    height: 172px;
+    margin: 35px 30px;
+    line-height: 50px;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding-top: 70px;
+    box-shadow: 5px 5px 10px;
+    position: relative;
+  }
+
+span {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+#flex-container .uno {
+    transform: rotate(-4deg);
+}
+
+#flex-container .due {
+    transform: rotate(9deg);
+}
+
+#flex-container .tre {
+    transform: rotate(-8deg);
+}
+
+#flex-container .quattro {
+    transform: rotate(11deg);
+}
+
+#flex-container .cinque {
+    transform: rotate(-4deg);
+}
+
+#flex-container .sei {
+    transform: rotate(-11deg);
+}
+
+#flex-container .sette {
+    transform: rotate(-5deg);
+}
+
+#flex-container .otto {
+    transform: rotate(5deg);
+}
+
+#flex-container .uno:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+#flex-container .due:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+#flex-container .tre:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+#flex-container .quattro:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+#flex-container .cinque:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+#flex-container .sei:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+#flex-container .sette:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+#flex-container .otto:hover {
+    z-index: 1;
+    transform: scale(1.1);
+}
