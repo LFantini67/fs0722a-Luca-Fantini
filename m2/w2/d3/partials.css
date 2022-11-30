@@ -1,0 +1,21 @@
+#btn-blue {
+  padding: 10px;
+  border-radius: 10px;
+  background: cyan;
+  color: white;
+}
+#btn-blue:hover {
+  z-index: 1;
+  transform: scale(1.1);
+}
+
+#btn-yellow {
+  padding: 10px;
+  border-radius: 10px;
+  background: yellow;
+  color: white;
+}
+#btn-yellow:hover {
+  z-index: 1;
+  transform: scale(1.1);
+}/*# sourceMappingURL=partials.css.map */

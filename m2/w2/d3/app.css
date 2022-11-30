@@ -1,0 +1,52 @@
+#btn-cyan {
+  padding: 10px;
+  border-radius: 10px;
+  background: cyan;
+  color: white;
+}
+#btn-cyan:hover {
+  z-index: 1;
+  transform: scale(1.1);
+}
+
+#btn-orange {
+  padding: 10px;
+  border-radius: 10px;
+  background: orange;
+  color: white;
+}
+#btn-orange:hover {
+  z-index: 1;
+  transform: scale(1.1);
+}
+
+body {
+  background: purple;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  padding-right: 10px;
+  color: white;
+}
+ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+ul li:first-child {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  cursor: auto;
+}
+
+img {
+  width: 300px;
+}
+/*# sourceMappingURL=app.css.map */

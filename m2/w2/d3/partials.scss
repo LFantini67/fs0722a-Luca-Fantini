@@ -1,0 +1,23 @@
+$body-color: purple;
+
+#btn-cyan {
+    padding: 10px;
+    border-radius: 10px;
+    background: cyan;
+    color: white;
+    &:hover {
+        z-index: 1;
+        transform: scale(1.1);
+    }
+}
+
+#btn-orange {
+    padding: 10px;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    &:hover {
+        z-index: 1;
+        transform: scale(1.1);
+    }
+}

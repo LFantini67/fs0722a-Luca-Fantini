@@ -1,0 +1,32 @@
+@import 'partials';
+
+body {
+    background: $body-color;
+    margin-left: 10%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+    li {
+        padding-right: 10px;
+        color: white;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        &:first-child {
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            cursor: auto;
+        }
+    }
+}
+
+img { 
+    width: 300px;
+}
