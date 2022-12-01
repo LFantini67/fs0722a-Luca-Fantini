@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-style: italic;
+  background: blue;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px orangered;
+}
+nav ul li {
+  padding: 20px;
+  color: white;
+}
+nav ul li:hover {
+  cursor: pointer;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 80% auto;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+main div {
+  padding: 10px;
+}
+main .sidebar {
+  text-align: center;
+}
+main ul {
+  list-style: none;
+}
+main li {
+  padding: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+}
+
+button {
+  padding: 10px;
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  height: 80px;
+  background: rgb(90, 90, 253);
+}/*# sourceMappingURL=style.css.map */

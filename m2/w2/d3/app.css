@@ -23,13 +23,11 @@
 body {
   background: purple;
   margin-left: 10%;
-  margin-right: 10%;
 }
 
 ul {
   display: flex;
   list-style: none;
-  padding: 0;
 }
 ul li {
   padding-right: 10px;
@@ -48,5 +46,4 @@ ul li:first-child {
 
 img {
   width: 300px;
-}
-/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */

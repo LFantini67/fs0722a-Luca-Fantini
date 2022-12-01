@@ -1,21 +1,21 @@
-#btn-blue {
+#btn-cyan {
   padding: 10px;
   border-radius: 10px;
   background: cyan;
   color: white;
 }
-#btn-blue:hover {
+#btn-cyan:hover {
   z-index: 1;
   transform: scale(1.1);
 }
 
-#btn-yellow {
+#btn-orange {
   padding: 10px;
   border-radius: 10px;
-  background: yellow;
+  background: orange;
   color: white;
 }
-#btn-yellow:hover {
+#btn-orange:hover {
   z-index: 1;
   transform: scale(1.1);
 }/*# sourceMappingURL=partials.css.map */
