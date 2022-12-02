@@ -1,0 +1,10 @@
+header {
+    li {
+        padding: 10px;
+
+        @media screen and (min-width: 1024px) {
+            display: block;
+            text-align: center;
+        }
+    }
+}

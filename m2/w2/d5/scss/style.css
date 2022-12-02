@@ -1,0 +1,98 @@
+button {
+  background: #7022f2;
+  color: white;
+  padding: 7px;
+  border: none;
+}
+
+body {
+  width: 99.3%;
+}
+
+header {
+  background: #7022f2;
+  padding-left: 50px;
+}
+header ul li {
+  display: inline;
+  list-style: none;
+  padding-left: 10px;
+}
+header ul li:nth-child(1) {
+  color: white;
+}
+
+main {
+  background-image: url(../img/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-top {
+  background-image: url(../img/pexels-aleksandar-pasaric-325185.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+#main-top div {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+#main-contact {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 100px;
+}
+#main-contact .bi {
+  font-size: 30px;
+}
+
+#main-partner {
+  text-align: center;
+  margin-bottom: 250px;
+}
+#main-partner img {
+  width: 100px;
+}
+
+#main-opinion {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#main-opinion h2 {
+  margin-bottom: 30px;
+}
+#main-opinion p {
+  padding: 20px;
+}
+#main-opinion img {
+  width: 100px;
+  border-radius: 50%;
+}
+#main-opinion #p-jamie {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+footer {
+  background: #7022f2;
+  text-align: center;
+  color: white;
+}
+footer #p-boot {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 60px;
+}
+footer ul {
+  list-style: none;
+  padding: 30px;
+}
+footer ul li {
+  padding: 10px;
+}
+footer ul li:nth-child(1) {
+  font-size: 1.4em;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

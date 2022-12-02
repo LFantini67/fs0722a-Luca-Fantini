@@ -1,0 +1,28 @@
+$tempate: dark;
+
+$bg-dark: #7022f2;
+$text-dark: white;
+$bg-bright: #0ff;
+$text-bright: black;
+$bg-green: #0f0;
+
+@if $template ==dark {
+    header footer {
+        $bg-dark: #7022f2;
+        color: $text-dark;
+    }
+}
+
+@else if $template ==bright {
+    header footer {
+        background-color: $bg-bright;
+        color: $text-bright;
+    }
+}
+
+@else {
+    header footer {
+        background-color: $bg-green;
+        color: $text-bright;
+    }
+}
