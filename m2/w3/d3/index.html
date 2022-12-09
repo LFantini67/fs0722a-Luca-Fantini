@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="window.setInterval(Counter)">
+
+    <div id="result"></div>
+    
+    <script>
+
+        let i = 0
+        const element = document.getElementById("result");
+        setInterval(function () { element.innerHTML += i++ }, 10000);
+        function Counter() {
+            if (typeof (Storage) != undefined) {
+                if (sessionStorage.counter) {
+                    let i = 0
+                    const element = document.getElementById("result");
+                    setInterval(function () { element.innerHTML + i++ }, 10000);
+                    sessionStorage.count = Number(sessionStorage.counter) + 1;
+                    console.time('executiontime')
+                } else {
+                    let i = 0
+                    const element = document.getElementById("result");
+                    setInterval(function () { element.innerHTML += i++ }, 10000);
+                    sessionStorage.counter = 1;
+                }
+                document.getElementById("result").innerHTML = sessionStorage.counter + " " + "secondi passati in questa pagina";
+            } else {
+                document.getElementById("result").innerHTML = "Il tuo browser non supporta Web storage...";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
