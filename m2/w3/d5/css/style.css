@@ -1,11 +1,15 @@
 body {
+  display: flex;
   background: #f1f1f1;
   font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
   display: flex;
 }
+
 main .users {
   width: 300px;
   height: 300px;
@@ -15,6 +19,7 @@ main .users {
   border-radius: 10px;
   text-align: center;
 }
+
 main img {
   background: #f1f1f1;
   width: 75px;
@@ -22,12 +27,16 @@ main img {
   padding: 15px;
   margin-top: 38px;
 }
+
 main .name {
   font-weight: bold;
   font-size: 1.6rem;
 }
+
 main .email {
   font-size: 1.4rem;
   text-decoration: none;
   color: #f4be20;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
