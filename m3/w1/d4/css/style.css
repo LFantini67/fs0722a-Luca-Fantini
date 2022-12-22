@@ -1,0 +1,23 @@
+#card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: 10px;
+    border:1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card ul {
+    padding: 0 20px 20px;
+}
+
+.card li {
+    padding: 1%;
+    list-style: none;
+}
+
+
